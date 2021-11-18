@@ -5,14 +5,14 @@ import java.util.concurrent.atomic.AtomicInteger;
 
 public class Main {
     public static void main(String[] args) {
-        thread();
-        runnable();
-        threadFactory();
-        executor();
-        callable();
-        runSynchronized1Demo();
-        runSynchronized2Demo();
-        runSynchronized3Demo();
+//        thread();
+//        runnable();
+//        threadFactory();
+//        executor();
+//        callable();
+//        runSynchronized1Demo();
+//        runSynchronized2Demo();
+//        runSynchronized3Demo();
         runReadWriteLockDemo();
     }
 
@@ -110,7 +110,7 @@ public class Main {
     }
 
     static void runSynchronized1Demo() {
-
+        new Synchronized1Demo().runTest();
     }
 
     static void runSynchronized2Demo() {
